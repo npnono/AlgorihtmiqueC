@@ -12,7 +12,7 @@ typedef struct {
 
 typedef struct {
     int size;
-    Tile** Tiles;
+    Tile* Tiles;
 } Grid;
 
 Grid grid;
