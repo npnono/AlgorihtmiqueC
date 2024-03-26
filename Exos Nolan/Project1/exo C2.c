@@ -12,7 +12,7 @@ typedef struct {
 
 typedef struct {
     int size;
-    Tile* Tiles;
+    Tile** Tiles;
 } Grid;
 
 Grid grid;
@@ -110,11 +110,11 @@ void affichage() {
             printf("\033[0m"); // Réinitialiser la couleur après chaque case
             printf("|");
         }
-        
+
         if (i < 9) {
             printf(" 0%d\n", i + 1);
         }
-        else{
+        else {
             printf(" %d\n", i + 1);
         }
         for (int k = 0; k < cols; k++) {
