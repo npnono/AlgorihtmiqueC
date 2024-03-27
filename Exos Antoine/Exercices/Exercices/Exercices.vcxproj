@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Exo.c" />
+    <ClCompile Include="..\Exo_tableaux.c" />
+    <ClCompile Include="exercice_6.c" />
+    <ClCompile Include="EXo_string.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

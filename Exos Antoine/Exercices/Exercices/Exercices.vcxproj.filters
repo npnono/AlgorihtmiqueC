@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Exo.c">
+    <ClCompile Include="..\Exo_tableaux.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="EXo_string.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="exercice_6.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
