@@ -21,6 +21,7 @@ int vie = 0;
 char restart = 'y';
 int nbTileRevealed = 0;
 int rows, cols;
+int difficulty;
 
 void ClearBuffer() {
     while (getchar() != '\n');
@@ -74,35 +75,42 @@ void affichage() {
         printf("|");
         for (int j = 0; j < cols; j++) {
             if (grid.Tiles[i][j].isRevealed) {
-                // Vérifie si la case contient un chiffre
-                if (grid.Tiles[i][j].adjacentMineCount >= 0 && grid.Tiles[i][j].adjacentMineCount <= 8) {
-                    // Changer la couleur en fonction de la valeur adjacente à la mine
-                    switch (grid.Tiles[i][j].adjacentMineCount) {
-                    case 0:
-                        printf("\033[0;37m"); // Blanc
-                        break;
-                    case 1:
-                        printf("\033[0;34m"); // Bleu clair
-                        break;
-                    case 2:
-                        printf("\033[0;32m"); // Vert
-                        break;
-                    case 3:
-                        printf("\033[0;31m"); // Rouge
-                        break;
-                    case 4:
-                        printf("\033[0;36m"); // Bleu foncé
-                        break;
-                        // Ajoutez des cas pour les autres valeurs selon vos préférences
-                    default:
-                        printf("\033[0;35m"); // Magenta pour les autres valeurs
-                    }
-                    printf("  %d  ", grid.Tiles[i][j].adjacentMineCount);
+                if (grid.Tiles[i][j].isMine && vie != 0) {
+                    printf("  *  "); // Affiche une mine si la case est une mine et que le joueur a perdu
                 }
                 else {
-                    printf("\033[0;37m"); // Blanc pour les autres caractères
-                    printf("     ");
+                    // Affiche le nombre de mines adjacentes
+                    if (grid.Tiles[i][j].adjacentMineCount >= 0 && grid.Tiles[i][j].adjacentMineCount <= 8) {
+                        // Changer la couleur en fonction du nombre de mines adjacentes
+                        switch (grid.Tiles[i][j].adjacentMineCount) {
+                        case 0:
+                            printf("\033[0;37m"); // Blanc
+                            break;
+                        case 1:
+                            printf("\033[0;34m"); // Bleu clair
+                            break;
+                        case 2:
+                            printf("\033[0;32m"); // Vert
+                            break;
+                        case 3:
+                            printf("\033[0;31m"); // Rouge
+                            break;
+                        case 4:
+                            printf("\033[0;36m"); // Bleu foncé
+                            break;
+                        default:
+                            printf("\033[0;35m"); // Magenta pour les autres valeurs
+                        }
+                        printf("  %d  ", grid.Tiles[i][j].adjacentMineCount);
+                    }
+                    else {
+                        printf("\033[0;37m"); // Blanc pour les autres caractères
+                        printf("     ");
+                    }
                 }
+            }
+            else if (vie != 0 && grid.Tiles[i][j].isMine) {
+                printf("  *  "); // Affiche une mine si le joueur a perdu et la case est une mine
             }
             else if (grid.Tiles[i][j].isFlag) {
                 printf("\033[0;31m"); // Rouge pour les drapeaux
@@ -129,9 +137,18 @@ void affichage() {
 }
 
 
+
+
 void mines() {
     srand(time(NULL));
-    int nbMines = (rows * cols) / 8;
+    int nbMines;
+    if (difficulty == 1)
+        nbMines = (rows * cols) / 10;
+    else if (difficulty == 2)
+        nbMines = (rows * cols) / 8;
+    else if (difficulty == 3)
+        nbMines = (rows * cols) / 6;
+
     for (int m = 0; m < nbMines; m++) {
         int x = rand() % rows;
         int y = rand() % cols;
@@ -165,18 +182,15 @@ void countMines() {
 }
 
 void revealAdjacent(int i, int j) {
-    // Vérifie les Tiles autour de la case actuelle
     for (int dx = -1; dx <= 1; dx++) {
         for (int dy = -1; dy <= 1; dy++) {
             int ni = i + dx;
             int nj = j + dy;
-            // Vérifie si la case est valide et non révélée
             if (ni >= 0 && ni < rows && nj >= 0 && nj < cols && !grid.Tiles[ni][nj].isRevealed) {
                 grid.Tiles[ni][nj].isRevealed = true;
                 nbTileRevealed++;
-                // Si la case révélée a un adjacentMineCount de 0, révèle les Tiles autour
                 if (grid.Tiles[ni][nj].adjacentMineCount == 0) {
-                    revealAdjacent(ni, nj); // Appel récursif pour révéler les Tiles autour
+                    revealAdjacent(ni, nj);
                 }
             }
         }
@@ -204,7 +218,7 @@ void playerMove() {
                 grid.Tiles[i - 1][j - 1].isRevealed = true;
                 nbTileRevealed++;
                 if (grid.Tiles[i - 1][j - 1].adjacentMineCount == 0) {
-                    revealAdjacent(i - 1, j - 1); // Appel de la fonction pour révéler les Tiles autour
+                    revealAdjacent(i - 1, j - 1);
                 }
             }
         }
@@ -242,14 +256,14 @@ void wantFlag() {
         }
 
         if (grid.Tiles[i - 1][j - 1].isFlag) {
-            grid.Tiles[i - 1][j - 1].isFlag = false; // Retirer le drapeau de la case
+            grid.Tiles[i - 1][j - 1].isFlag = false;
             printf("Drapeau retiré de la case (%d, %d).\n", i, j);
         }
         else {
-            grid.Tiles[i - 1][j - 1].isFlag = true; // Placer le drapeau sur la case
+            grid.Tiles[i - 1][j - 1].isFlag = true;
             printf("Drapeau placé sur la case (%d, %d).\n", i, j);
         }
-        affichage(); // Actualisation de l'affichage après avoir placé ou retiré un drapeau
+        affichage();
 
         printf("Voulez-vous placer ou retirer un autre drapeau sur une case ? (Y/N) : ");
         scanf_s(" %c", &choice);
@@ -261,10 +275,15 @@ void wantFlag() {
     }
 }
 
-
-
 void checkWinner() {
-    int nbMines = (rows * cols) / 8;
+    int nbMines;
+    if (difficulty == 1)
+        nbMines = (rows * cols) / 10;
+    else if (difficulty == 2)
+        nbMines = (rows * cols) / 8;
+    else if (difficulty == 3)
+        nbMines = (rows * cols) / 6;
+
     int nbAllTile = rows * cols;
     if (nbTileRevealed == nbAllTile - nbMines) {
         vie = 2;
@@ -272,11 +291,16 @@ void checkWinner() {
 }
 
 void play() {
-
     while (restart == 'y' || restart == 'Y') {
+        difficulty = Askint("Entrez votre difficulté :\n1 : difficulté faible (nombre d'apparition des bombes est de 1/10)\n2 : difficulté moyenne (nombre d'apparition des bombes est de 1/8)\n3 : difficulté élevée (nombre d'apparition des bombes est de 1/6)\n\nVotre réponse : ");
+
+        while (difficulty < 1 || difficulty > 3) {
+            printf("Veuillez entrer un chiffre entre 1 et 3 pour choisir la difficulté.\n");
+            difficulty = Askint("Entrez votre difficulté :\n1 : difficulté faible (nombre d'apparition des bombes est de 1/10)\n2 : difficulté moyenne (nombre d'apparition des bombes est de 1/8)\n3 : difficulté élevée (nombre d'apparition des bombes est de 1/6)\n\nVotre réponse : ");
+        }
+
         rows = Askint("Entrez le nombre de lignes : ");
         cols = Askint("Entrez le nombre de colonnes : ");
-        
         initGrid();
         mines();
         countMines();

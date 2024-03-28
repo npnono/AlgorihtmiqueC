@@ -1,35 +1,35 @@
 ﻿  Démineur_version_2.c
-C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(133,11): warning C4244: 'fonction' : conversion de 'time_t' en 'unsigned int', perte possible de données
-C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(220,13): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
-  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(220,13):
+C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(143,11): warning C4244: 'fonction' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(234,13): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
+  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(234,13):
   les espaces réservés et leurs paramètres attendent des arguments 2 variadiques, mais des arguments 1 ont été fournis
-  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(220,13):
+  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(234,13):
   l'argument variadique manquant 2 est demandé par la chaîne de format '%c'
-  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(220,13):
+  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(234,13):
   cet argument est utilisé comme taille de mémoire tampon
   
-C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(255,17): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
-  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(255,17):
+C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(269,17): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
+  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(269,17):
   les espaces réservés et leurs paramètres attendent des arguments 2 variadiques, mais des arguments 1 ont été fournis
-  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(255,17):
+  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(269,17):
   l'argument variadique manquant 2 est demandé par la chaîne de format '%c'
-  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(255,17):
+  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(269,17):
   cet argument est utilisé comme taille de mémoire tampon
   
-C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(296,17): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
-  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(296,17):
+C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(320,17): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
+  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(320,17):
   les espaces réservés et leurs paramètres attendent des arguments 2 variadiques, mais des arguments 1 ont été fournis
-  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(296,17):
+  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(320,17):
   l'argument variadique manquant 2 est demandé par la chaîne de format '%c'
-  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(296,17):
+  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(320,17):
   cet argument est utilisé comme taille de mémoire tampon
   
-C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(300,21): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
-  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(300,21):
+C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(324,21): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
+  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(324,21):
   les espaces réservés et leurs paramètres attendent des arguments 2 variadiques, mais des arguments 1 ont été fournis
-  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(300,21):
+  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(324,21):
   l'argument variadique manquant 2 est demandé par la chaîne de format '%c'
-  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(300,21):
+  C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\Démineur_version_2.c(324,21):
   cet argument est utilisé comme taille de mémoire tampon
   
   Démineur.vcxproj -> C:\Users\about\OneDrive\Documents\GitHub\AlgorihtmiqueC\Démineur\x64\Debug\Démineur.exe
