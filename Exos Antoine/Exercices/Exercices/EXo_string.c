@@ -95,7 +95,7 @@ int AreEquals(const String* pStr1, const String* pStr2)
     for (int i = 0; i <= pStr1->iLength; i++) {
         if (pStr1->pContent[i] != pStr2->pContent[i]) {
             printf("les string sont ne sont pas equals");
-            break;
+            return 0;
         }
     }
     return 1;
