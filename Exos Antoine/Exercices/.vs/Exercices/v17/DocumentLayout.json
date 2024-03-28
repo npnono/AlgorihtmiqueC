@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\Exos Antoine\\Exercices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5AB0F7-2C02-4D04-9369-7ADBD8EC7060}|Exercices\\Exercices.vcxproj|C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\Exos Antoine\\Exercices\\Exercices\\EXo_string.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1D5AB0F7-2C02-4D04-9369-7ADBD8EC7060}|Exercices\\Exercices.vcxproj|solutionrelative:Exercices\\EXo_string.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5AB0F7-2C02-4D04-9369-7ADBD8EC7060}|Exercices\\Exercices.vcxproj|C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\Exos Antoine\\Exercices\\Exercices\\exercice_6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1D5AB0F7-2C02-4D04-9369-7ADBD8EC7060}|Exercices\\Exercices.vcxproj|solutionrelative:Exercices\\exercice_6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5AB0F7-2C02-4D04-9369-7ADBD8EC7060}|Exercices\\Exercices.vcxproj|C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\Exos Antoine\\Exercices\\Exo_tableaux.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1D5AB0F7-2C02-4D04-9369-7ADBD8EC7060}|Exercices\\Exercices.vcxproj|solutionrelative:Exo_tableaux.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "exercice_6.c",
+              "DocumentMoniker": "C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\Exos Antoine\\Exercices\\Exercices\\exercice_6.c",
+              "RelativeDocumentMoniker": "Exercices\\exercice_6.c",
+              "ToolTip": "C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\Exos Antoine\\Exercices\\Exercices\\exercice_6.c",
+              "RelativeToolTip": "Exercices\\exercice_6.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-28T15:33:07.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Exo_tableaux.c",
+              "DocumentMoniker": "C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\Exos Antoine\\Exercices\\Exo_tableaux.c",
+              "RelativeDocumentMoniker": "Exo_tableaux.c",
+              "ToolTip": "C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\Exos Antoine\\Exercices\\Exo_tableaux.c",
+              "RelativeToolTip": "Exo_tableaux.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-28T15:33:07.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EXo_string.c",
+              "DocumentMoniker": "C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\Exos Antoine\\Exercices\\Exercices\\EXo_string.c",
+              "RelativeDocumentMoniker": "Exercices\\EXo_string.c",
+              "ToolTip": "C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\Exos Antoine\\Exercices\\Exercices\\EXo_string.c",
+              "RelativeToolTip": "Exercices\\EXo_string.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-28T15:33:07.336Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

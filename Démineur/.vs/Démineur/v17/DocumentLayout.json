@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\D\u00E9mineur\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB1250BA-B7AD-4391-B554-9741B66A085F}|D\u00E9mineur.vcxproj|C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\D\u00E9mineur\\D\u00E9mineur_version_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB1250BA-B7AD-4391-B554-9741B66A085F}|D\u00E9mineur.vcxproj|solutionrelative:D\u00E9mineur_version_2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB1250BA-B7AD-4391-B554-9741B66A085F}|D\u00E9mineur.vcxproj|C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\D\u00E9mineur\\D\u00E9mineur_version_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB1250BA-B7AD-4391-B554-9741B66A085F}|D\u00E9mineur.vcxproj|solutionrelative:D\u00E9mineur_version_1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "D\u00E9mineur_version_2.c",
+              "DocumentMoniker": "C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\D\u00E9mineur\\D\u00E9mineur_version_2.c",
+              "RelativeDocumentMoniker": "D\u00E9mineur_version_2.c",
+              "ToolTip": "C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\D\u00E9mineur\\D\u00E9mineur_version_2.c",
+              "RelativeToolTip": "D\u00E9mineur_version_2.c",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAYwAQBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-28T15:44:09.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "D\u00E9mineur_version_1.c",
+              "DocumentMoniker": "C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\D\u00E9mineur\\D\u00E9mineur_version_1.c",
+              "RelativeDocumentMoniker": "D\u00E9mineur_version_1.c",
+              "ToolTip": "C:\\Users\\about\\OneDrive\\Documents\\GitHub\\AlgorihtmiqueC\\D\u00E9mineur\\D\u00E9mineur_version_1.c",
+              "RelativeToolTip": "D\u00E9mineur_version_1.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-28T15:36:37.656Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
