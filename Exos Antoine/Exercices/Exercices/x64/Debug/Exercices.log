@@ -1,7 +1,6 @@
 ﻿  EXo_string.c
-C:\Users\aboutarin\Documents\GitHub\AlgorihtmiqueC\Exos Antoine\Exercices\Exercices\EXo_string.c(83): warning C4716: 'AreEquals' : doit retourner une valeur
-C:\Users\aboutarin\Documents\GitHub\AlgorihtmiqueC\Exos Antoine\Exercices\Exercices\EXo_string.c(51): warning C4716: 'Concatenate1' : doit retourner une valeur
-C:\Users\aboutarin\Documents\GitHub\AlgorihtmiqueC\Exos Antoine\Exercices\Exercices\EXo_string.c(78): warning C4716: 'InsertString' : doit retourner une valeur
-C:\Users\aboutarin\Documents\GitHub\AlgorihtmiqueC\Exos Antoine\Exercices\Exercices\EXo_string.c(73): warning C4716: 'SubString' : doit retourner une valeur
-C:\Users\aboutarin\Documents\GitHub\AlgorihtmiqueC\Exos Antoine\Exercices\Exercices\EXo_string.c(88): warning C4716: 'TryCastToInt' : doit retourner une valeur
+C:\Users\aboutarin\Documents\GitHub\AlgorihtmiqueC\Exos Antoine\Exercices\Exercices\EXo_string.c(59): warning C4716: 'Concatenate1' : doit retourner une valeur
+C:\Users\aboutarin\Documents\GitHub\AlgorihtmiqueC\Exos Antoine\Exercices\Exercices\EXo_string.c(86): warning C4716: 'InsertString' : doit retourner une valeur
+C:\Users\aboutarin\Documents\GitHub\AlgorihtmiqueC\Exos Antoine\Exercices\Exercices\EXo_string.c(81): warning C4716: 'SubString' : doit retourner une valeur
+C:\Users\aboutarin\Documents\GitHub\AlgorihtmiqueC\Exos Antoine\Exercices\Exercices\EXo_string.c(107): warning C4716: 'TryCastToInt' : doit retourner une valeur
   Exercices.vcxproj -> C:\Users\aboutarin\Documents\GitHub\AlgorihtmiqueC\Exos Antoine\Exercices\x64\Debug\Exercices.exe

@@ -47,7 +47,15 @@ void PrintString(const String* pStr)
 
 String Concatenate1(const String* pStr1, const String* pStr2)
 {
-    
+    String new_string;
+
+
+    int iLength = pStr1->iLength + pStr2->iLength;
+    new_string.pContent = (char*)realloc(pStr1->pContent, sizeof(char) * iLength);
+
+    for (int i = 0; i < iLength; i++) {
+        
+    }
 }
 
 String Concatenate2(const char* str1, const char* str2)
@@ -79,7 +87,18 @@ String InsertString(const String* pStr1, const String* Pstr2, int iIndex)
 
 int AreEquals(const String* pStr1, const String* pStr2)
 {
-
+    if (pStr1->iLength != pStr2->iLength) {
+        printf("les string sont ne sont pas equals");
+        return 0;
+    }
+    
+    for (int i = 0; i <= pStr1->iLength; i++) {
+        if (pStr1->pContent[i] != pStr2->pContent[i]) {
+            printf("les string sont ne sont pas equals");
+            return 0;
+        }
+    }
+    return 1;
 }
 
 int TryCastToInt(const String* pStr, int* pResult)
@@ -104,6 +123,8 @@ int main() {
     String str3 = Concatenate2("Bonjour", "Aurevoir");
     
     PrintString(&str3);
+
+    AreEquals(&str1, &str2);
 
     /*String str4 = Concatenate1(&str1, &str2);
 
