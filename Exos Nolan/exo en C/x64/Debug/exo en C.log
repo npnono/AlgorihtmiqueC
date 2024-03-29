@@ -1,0 +1,11 @@
+﻿  slide 3.c
+C:\Users\npestre\Documents\GitHub\AlgorihtmiqueC\Exos Nolan\exo en C\slide 3.c(133,11): warning C4244: 'fonction' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\npestre\Documents\GitHub\AlgorihtmiqueC\Exos Nolan\exo en C\slide 3.c(307,17): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
+C:\Users\npestre\Documents\GitHub\AlgorihtmiqueC\Exos Nolan\exo en C\slide 3.c(307,17): message : les espaces réservés et leurs paramètres attendent des arguments 2 variadiques, mais des arguments 1 ont été fournis
+C:\Users\npestre\Documents\GitHub\AlgorihtmiqueC\Exos Nolan\exo en C\slide 3.c(307,17): message : l'argument variadique manquant 2 est demandé par la chaîne de format '%c'
+C:\Users\npestre\Documents\GitHub\AlgorihtmiqueC\Exos Nolan\exo en C\slide 3.c(307,17): message : cet argument est utilisé comme taille de mémoire tampon
+C:\Users\npestre\Documents\GitHub\AlgorihtmiqueC\Exos Nolan\exo en C\slide 3.c(311,21): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
+C:\Users\npestre\Documents\GitHub\AlgorihtmiqueC\Exos Nolan\exo en C\slide 3.c(311,21): message : les espaces réservés et leurs paramètres attendent des arguments 2 variadiques, mais des arguments 1 ont été fournis
+C:\Users\npestre\Documents\GitHub\AlgorihtmiqueC\Exos Nolan\exo en C\slide 3.c(311,21): message : l'argument variadique manquant 2 est demandé par la chaîne de format '%c'
+C:\Users\npestre\Documents\GitHub\AlgorihtmiqueC\Exos Nolan\exo en C\slide 3.c(311,21): message : cet argument est utilisé comme taille de mémoire tampon
+  exo en C.vcxproj -> C:\Users\npestre\Documents\GitHub\AlgorihtmiqueC\Exos Nolan\exo en C\x64\Debug\exo en C.exe
